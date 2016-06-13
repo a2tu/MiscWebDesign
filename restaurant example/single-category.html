@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset=“utf-8”>
+	<meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+	<meta name = “viewport” content=“width=device-width, initial-scale=1”>
+	<title>Xiao Maos Palace</title>
+	<!-- move bootstrap back to org folder after complete with browser sync -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/restaurantstyles.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="restaurant.html" class="pull-left visible-md visible-lg">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+
+					<div class="navbar-brand">
+						<a href="restaurant.html"><h1>Xiao Mao's Palace</h1></a>
+						<p>
+							<img id="GFimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Gluten_free_SVG.svg/412px-Gluten_free_SVG.svg.png" alt="gluten-free logo">
+							<span>Gluten-Free</span>
+						</p>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li class="visible-xs">
+							<a href="restaurant.html">
+								<span class="glyphicon glyphicon-home"></span> Home</a>
+						</li>
+						<li class="active">
+							<a href="menu-categories.html">
+								<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-tree-conifer"></span><br class="hidden-xs">Awards</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:000-000-0000">
+								<span>000-000-0000</span></a><div>* We Don't Deliver</div>
+						</li>
+					</ul>
+				</div> 
+			</div>
+		</nav>
+	</header>
+
+	<!-- MAIN CONTENT -->
+	<div id="call-btn" class="visible-xs">
+		<a class="btn" href="tel:000-000-0000">
+		<span class="glyphicon glyphicon-earphone"></span>000-000-0000</a>
+	</div>
+	<div id="xs-deliver" class="text-center visible-xs">* We Don't Deliver</div>
+
+	<div id="main-content" class="container">
+		<h2 id="menu-categories-title" class="text-center">Salad Menu</h2>
+		<div class="text-center">Eating kale will give you a kale belly.</div>
+
+		<section class="row">
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>D01</div>
+							<img class="img-responsive" width="250" height="150" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSamwjM0O90A-Y3uiUsdAfT03GrCYvvZf0lFFzvCJOKOOOjzDR0" alt="cat item">
+						</div>
+						<div class="menu-item-price">$14.75<span> (pint) </span> $20.05 <span> (quart) </span></div>
+					</div>
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Kitty with Catnip</h3>
+						<p class="menu-item-details">With the proper care and nutrition even your Kitty will be as chipper as your next door neighbor's dog. Feed your Kitty this formula for 12 weeks. If you live in a climate that is inhospitable to growing catnip you can purchase dehydrated catnip for your cat. To order please see our purchasing page. As noted we do not make deliveries and you will need to pick up your order in person. We sell to all continguous states in the U.S.</p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div> 
+
+			<!-- this completes 1 grid item -->
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>D02</div>
+							<img class="img-responsive" width="250" height="150" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSamwjM0O90A-Y3uiUsdAfT03GrCYvvZf0lFFzvCJOKOOOjzDR0" alt="cat item">
+						</div>
+						<div class="menu-item-price">$14.75<span> (pint) </span> $20.05 <span> (quart) </span></div>
+					</div>
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Kitty with Catnip</h3>
+						<p class="menu-item-details">With the proper care and nutrition even your Kitty will be as chipper as your next door neighbor's dog. Feed your Kitty this formula for 12 weeks.</p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div> 
+
+			<div class="clearfix visible-md-block visible-lg-block"></div>
+
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>D03</div>
+							<img class="img-responsive" width="250" height="150" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSamwjM0O90A-Y3uiUsdAfT03GrCYvvZf0lFFzvCJOKOOOjzDR0" alt="cat item">
+						</div>
+						<div class="menu-item-price">$14.75<span> (pint) </span> $20.05 <span> (quart) </span></div>
+					</div>
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Kitty with Catnip</h3>
+						<p class="menu-item-details">With the proper care and nutrition even your Kitty will be as chipper as your next door neighbor's dog. Feed your Kitty this formula for 12 weeks.</p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div> 
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>D04</div>
+							<img class="img-responsive" width="250" height="150" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSamwjM0O90A-Y3uiUsdAfT03GrCYvvZf0lFFzvCJOKOOOjzDR0" alt="cat item">
+						</div>
+						<div class="menu-item-price">$14.75<span> (pint) </span> $20.05 <span> (quart) </span></div>
+					</div>
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Kitty with Catnip</h3>
+						<p class="menu-item-details">With the proper care and nutrition even your Kitty will be as chipper as your next door neighbor's dog. Feed your Kitty this formula for 12 weeks.</p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div> 
+
+			<div class="clearfix visible-md-block visible-lg-block"></div>
+
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>D05</div>
+							<img class="img-responsive" width="250" height="150" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSamwjM0O90A-Y3uiUsdAfT03GrCYvvZf0lFFzvCJOKOOOjzDR0" alt="cat item">
+						</div>
+						<div class="menu-item-price">$14.75<span> (pint) </span> $20.05 <span> (quart) </span></div>
+					</div>
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Kitty with Catnip</h3>
+						<p class="menu-item-details">With the proper care and nutrition even your Kitty will be as chipper as your next door neighbor's dog. Feed your Kitty this formula for 12 weeks.</p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div> 
+			<div class="menu-item-tile col-md-6">
+				<div class="row">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>D06</div>
+							<img class="img-responsive" width="250" height="150" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSamwjM0O90A-Y3uiUsdAfT03GrCYvvZf0lFFzvCJOKOOOjzDR0" alt="cat item">
+						</div>
+						<div class="menu-item-price">$14.75<span> (pint) </span> $20.05 <span> (quart) </span></div>
+					</div>
+					<div class="menu-item-description col-sm-7">
+						<h3 class="menu-item-title">Kitty with Catnip</h3>
+						<p class="menu-item-details">With the proper care and nutrition even your Kitty will be as chipper as your next door neighbor's dog. Feed your Kitty this formula for 12 weeks.</p>
+					</div>
+				</div>
+				<hr class="visible-xs">
+			</div> 
+
+			<div class="clearfix visible-md-block visible-lg-block"></div>
+
+		</section>
+
+	</div>
+	<!-- END OF MAIN CONTENT -->
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="hours" class='col-sm-4'>
+					<span>Hours:</span><br>Tu-Thurs: 5:00am - 10:00pm <br>
+					Fri-Sat: 6:00am - 2:00pm<br>Sun-Mon: Closed<hr class="visible-xs">
+				</section>
+				<section id="address" class='col-sm-4'>
+					<span>Address:</span><br>1255 Kitty Chow Pavillion<br>
+					Jian, CN 00031
+					<p>* Delivery still not available for any mile radius</p>
+					<hr class="visible-xs">
+				</section>
+				<section id="testimonial" class='col-sm-4'>
+					<p>&quot;The most authentic cat cafe I could have ever imagined visiting! Props to Kitty for good service.&quot;</p>
+					<p>&quot;What you see is what you get. Make sure to try the kitty special.&quot;</p>
+				</section>
+			</div>
+			<div class="text-center">&copy; Copyright Xiao Mao's Palace 2016</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
